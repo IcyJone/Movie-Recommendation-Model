@@ -3,15 +3,18 @@
 
 # Datasets
   [TMDB Movie Metadata](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+  
   [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=ratings_small.csv)
 
 # Features
   Content-Based Filtering: Recommends movies based on metadata such as overviews, cast, crew, genres, and keywords.
+  
   Vectorization: Uses TF-IDF and CountVectorizer to process text data.
+  
   Similarity Measurement: Calculates cosine similarity for movie recommendations.
-  Collaborative Filtering: Predicts user ratings for movies using the Surprise library with SVD (Singular Value Decomposition).
+  
+  Collaborative Filtering: Predicts user ratings for movies using the Surprise library with SVD (Singular Value Decomposition). Evaluated with RMSE and MAE using cross-validation.
 
-Evaluated with RMSE and MAE using cross-validation.
 Popularity-Based Ranking: Highlights top-rated and frequently voted movies using a weighted rating formula.
 
 # How It Works
