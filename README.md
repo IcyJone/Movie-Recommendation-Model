@@ -6,6 +6,8 @@
   
   [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=ratings_small.csv)
 
+These datasets provide essential movie data such as titles, overviews, cast, crew, genres, and user ratings. Both datasets are used in this project to build the recommendation system
+
 # Features
   Content-Based Filtering: Recommends movies based on metadata such as overviews, cast, crew, genres, and keywords.
   
@@ -13,9 +15,9 @@
   
   Similarity Measurement: Calculates cosine similarity for movie recommendations.
   
-  Collaborative Filtering: Predicts user ratings for movies using the Surprise library with SVD (Singular Value Decomposition). Evaluated with RMSE and MAE using cross-validation.
+  Collaborative Filtering: Predicts user ratings for movies using the Surprise library with SVD (Singular Value Decomposition). Evaluated with RMSE and MAE using     cross-validation.
 
-Popularity-Based Ranking: Highlights top-rated and frequently voted movies using a weighted rating formula.
+  Popularity-Based Ranking: Highlights top-rated and frequently voted movies using a weighted rating formula.
 
 # How It Works
   Data Preprocessing:
