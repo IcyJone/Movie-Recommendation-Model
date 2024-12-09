@@ -34,7 +34,7 @@ These datasets provide essential movie data such as titles, overviews, cast, cre
   Python (Pandas, NumPy, Matplotlib, Scikit-learn, Surprise)
 
 # Usage
-  Clone the repository.
-  Download the required datasets from Kaggle and place them in the appropriate directory.
-  Run the provided code to explore recommendations.
+  1.  Clone the repository.
+  2.  Download the required datasets from Kaggle and place them in the appropriate directory.
+  3.  Run the provided code to explore recommendations.
 
